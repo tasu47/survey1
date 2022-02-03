@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main-page {
+  background-image: url(../image/images.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+.main-page .head .para P {
+  padding-top: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 12px;
+}
+.main-page .head p {
+  text-align: center;
+}
+.main-page .head p i {
+  font-family: sans-serif;
+  color: white;
+}
+.main {
+  background-color: rgba(38, 38, 77, 0.9);
+  padding: 14px;
+  width: 550px;
+  margin: auto;
+  padding-left: 40px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+.input input,
+.option input,
+select {
+  width: 89%;
+  border: none;
+  padding: 9px 15px;
+  outline: none;
+  border-radius: 3px;
+}
+.input p,
+.heading p {
+  margin-top: 28px;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: white;
+}
+select {
+  width: 94%;
+}
+.main-page .heading .radio input {
+  display: block;
+}
+.main-page .main .heading input {
+  height: 18px;
+  width: 18px;
+}
+.main-page .main .heading .radio .check,
+.check-box .box {
+  font-family: sans-serif;
+  display: flex;
+  gap: 13px;
+  margin-top: 9px;
+  font-size: 17px;
+}
+.main-page .main .choose {
+  display: flex;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 25px;
+  gap: 10px;
+}
+.main-page .main .choose h6 {
+  margin-top: 4px;
+}
+.main-page .main .check-box .box input {
+  height: 16px;
+  width: 16px;
+}
+.main-page .main .input .comment textarea {
+  height: 100px;
+  width: 90.5%;
+  background-color: aliceblue;
+  color: rgb(51, 47, 47);
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: 1px solid;
+}
+button {
+  width: 94%;
+  height: 45px;
+  border: none;
+  background-color: rgb(23, 223, 156);
+  padding: 8px;
+  margin-top: 29px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+@media screen and (max-width: 600px) {
+  .main-page .main {
+    width: 360px;
+  }
+
+  .input p,
+  .heading p {
+    font-size: 15px;
+  }
+  .main-page .main .choose {
+    font-size: 15px;
+  }
+  .main-page .main .heading .radio .check,
+  .check-box .box {
+    font-size: 14px;
+  }
+  select {
+    width: 97%;
+  }
+  button {
+    width: 97%;
+  }
+  .main-page .main .comment textarea {
+    width: 60%;
+  }
+}
